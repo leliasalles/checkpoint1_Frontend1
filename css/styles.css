@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+
+
+body{
+
+    background: url(../img/ipe.jpeg) no-repeat;
+   background-size: cover;
+
+    
+}
+
+#header{
+
+    inline-size: auto;
+    background-color: rgba(46, 74, 201, 0.61);
+    padding: 10px,0px,20px,0px;
+    
+}
+
+
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 87px;
+    color: white;
+    margin-left: 20px;
+        
+}
+
+h2{
+    
+    background-color: rgba(46, 74, 201, 0.61);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 67px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+h3{
+
+    display: inline-block;
+    background-color: rgba(46, 74, 201, 0.61);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-left: 0px, 5px, 0px, 5px;
+    font-weight: 400;
+
+}
+
+.inline-block{
+
+    display: inline-block;
+    padding: 5px, 70px, 5px, 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgba(46, 74, 201, 0.61);
+    font-family: 'Lato', regular;
+    font-size: 28px;
+    font-weight: 500px;
+    color: white;
+}
+
+
+#video{
+
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+
+
+
+
+
+
+
+
+
