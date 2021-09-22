@@ -4,7 +4,7 @@
 
 body{
 
-    background: url(../img/ipe.jpeg) no-repeat;
+background: url(../img/ipe.jpeg) no-repeat;
    background-size: cover;
 
     
@@ -67,16 +67,180 @@ h3{
 
 #video{
 
-    margin-left: 35%;
+    display: inline-block;
+    margin-left: 30%;
     margin-top: 10%;
 
 }
+/* header*/
 
+@media(max-width: 480px) {
+    #header{
 
+        display: inline-block;
 
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    #header{
+        display: inline-block;
+    }
+}
 
+@media(min-width: 769) and (max-width: 1279){
+    #header{
+        display: inline-block;
+    }
+}
 
+@media(min-width:1280){
+    #header {
+        display: inline-block;
+    }
+}
 
+    /*paragrafos*/
+@media(max-width: 480px) {
+    .inline-block{
 
+        display: inline-block;
 
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    .inline-block{
+        display: inline-block;
+    }
+}
 
+@media(min-width: 769) and (max-width: 1279){
+    .inline-block{
+        display: inline-block;
+    }
+}
+
+@media(min-width:1280){
+    .inline-block {
+        display: inline-block;
+    }
+}
+
+/*h3 h2*/
+
+@media(max-width: 480px) {
+    h3 h2{
+
+        display: inline-block;
+
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    h3 h2{
+        display: inline-block;
+    }
+}
+
+@media(min-width: 769) and (max-width: 1279){
+    h3 h2{
+        display: inline-block;
+    }
+}
+
+@media(min-width:1280){
+    h3 h2 {
+        display: inline-block;
+    }
+}
+
+/* video*/
+
+@media(max-width: 480px) {
+    #video{
+
+        display: inline-block;
+
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    #video{
+        display: inline-block;
+    }
+}
+
+@media(min-width: 769) and (max-width: 1279){
+    #video{
+        display: inline-block;
+    }
+}
+
+@media(min-width:1280){
+    #video {
+        display: inline-block;
+    }
+}
+
+/* footer*/
+
+@media(max-width: 480px) {
+    #video{
+
+        display: inline-block;
+
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    #video{
+        display: inline-block;
+    }
+}
+
+@media(min-width: 769) and (max-width: 1279){
+    #video{
+        display: inline-block;
+    }
+}
+
+@media(min-width:1280){
+    #video {
+        display: inline-block;
+    }
+}
+
+/* body*/
+
+@media(max-width: 480px) {
+    body{
+
+        display: inline-block;
+
+    }
+}
+@media(min-width: 481px) and (max-width: 768){
+    body{
+        display: inline-block;
+    }
+}
+
+@media(min-width: 769) and (max-width: 1279){
+    body{
+        display: inline-block;
+    }
+}
+
+@media(min-width:1280){
+    body{
+        display: inline-block;
+    }
+}
+
+button {
+    background-image: linear-gradient(to right, rgb(196, 191, 125),  rgba(46, 74, 201, 0.61));
+    width: 10%;
+    border: none; 
+    padding: 25px 10px;
+    color: rgb(2, 0, 14);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+   margin-left: 43%;
+}
